@@ -125,3 +125,75 @@ header{
 .step_icon{
     color: #7e7e7e;
 }
+
+
+
+.restaurants{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant_card{
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restaurant_card_img img{
+    width: 316px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.restaurant_card_new{
+    border: 1px solid transparent;
+    background-color: #99e2d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 29px;
+    left: 210px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 3px;
+}
+
+.restaurant_card_new p{
+    text-decoration: none;
+    color: #0a8d6d;
+    font-weight: bold;
+}
+
+.restaurant_text{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 77px;
+    margin-right: 20px;
+}
+
+.restaurant_text_info{
+    color: black;
+    margin-left: 15px;
+}
+
+.restaurant_text_name{
+   font-weight: bold;
+   margin-bottom: 3px;
+}
+
+.heart_icon{
+    font-size: 1.3em;
+}
+
+
+
+
+
+
