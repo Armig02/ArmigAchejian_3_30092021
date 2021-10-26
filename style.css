@@ -1,1 +1,96 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  max-width: 750px;
+  margin: auto;
+  border: 1px red solid;
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    background-color: silver;
+    max-width: 1400px;
+    margin: auto;
+    border: 1px green solid;
+  }
+}
+
+body {
+  font-family: roboto, arial, verdana, sans-serif;
+}
+
+header img {
+  width: 164px;
+  height: 28px;
+}
+
+header {
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.145) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.145) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eaeaea;
+  color: #353535;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+}
+
+.location_city {
+  margin-left: 15px;
+}
+
+.paragraph1 {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding-top: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.p1_title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  max-width: 78%;
+  margin-top: 43px;
+  margin-bottom: 0px;
+}
+
+.p1_text {
+  text-align: center;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
