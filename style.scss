@@ -192,7 +192,23 @@ header{
     font-size: 1.3em;
 }
 
+.restaurant_cards{
+    display: flex;
+}
 
+footer{
+    width: 100%;
+    background-color: #353535;
+}
+
+.footer_section img{
+   width: 98px;
+   height: 20px;
+}
+
+.footer_section logo{
+    color: white;
+}
 
 
 
