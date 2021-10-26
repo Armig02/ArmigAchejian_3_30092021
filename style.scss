@@ -57,6 +57,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 45px;
 }
 
 .p1_title{
@@ -71,4 +72,56 @@ header{
 .p1_text{
     text-align: center;
     margin-top: 15px;
+}
+
+.p1_button{
+    border: 1px solid transparent;
+    border-radius: 150px;
+    padding:0px 20px 0px 20px;
+    box-shadow: #cfcfcfbb 0px 7px 29px 0px;
+    background: linear-gradient(#ee73da, #ae5fdb);
+    color: white;
+    font-weight: bold;
+}
+
+.step_contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.step_title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.step_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step_123{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 15px 20px;
+    width: 85%;
+    padding: 5px 0px 5px 0px;
+}
+
+.step_number{
+    background-color: #9356dc;
+    color: white;
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+}
+
+.step_icon{
+    color: #7e7e7e;
 }

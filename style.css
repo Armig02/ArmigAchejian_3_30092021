@@ -78,6 +78,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 45px;
 }
 
 .p1_title {
@@ -92,5 +93,78 @@ header {
 .p1_text {
   text-align: center;
   margin-top: 15px;
+}
+
+.p1_button {
+  border: 1px solid transparent;
+  border-radius: 150px;
+  padding: 0px 20px 0px 20px;
+  -webkit-box-shadow: #cfcfcfbb 0px 7px 29px 0px;
+          box-shadow: #cfcfcfbb 0px 7px 29px 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee73da), to(#ae5fdb));
+  background: linear-gradient(#ee73da, #ae5fdb);
+  color: white;
+  font-weight: bold;
+}
+
+.step_contain {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.step_title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.step_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.step_123 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid transparent;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 15px 20px;
+  width: 85%;
+  padding: 5px 0px 5px 0px;
+}
+
+.step_number {
+  background-color: #9356dc;
+  color: white;
+  border-radius: 100px;
+  padding: 5px 10px 5px 10px;
+}
+
+.step_icon {
+  color: #7e7e7e;
 }
 /*# sourceMappingURL=style.css.map */
