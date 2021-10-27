@@ -210,6 +210,19 @@ footer{
     color: white;
 }
 
+.footer_section_links{
+    display: flex;
+}
+
+.footer_section_link{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.footer_section_link i{
+    margin-right: 10px;
+}
 
 
 

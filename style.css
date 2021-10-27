@@ -276,4 +276,25 @@ footer {
 .footer_section logo {
   color: white;
 }
+
+.footer_section_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_section_link {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+}
+
+.footer_section_link i {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
