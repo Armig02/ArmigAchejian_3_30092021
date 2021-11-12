@@ -4,8 +4,8 @@
     border:1px red solid;
 } */
 
-@media screen and (max-width: 750px)
-{
+/*@media screen and (max-width: 750px)
+{*/
     body{
         max-width: 750px;
         max-width: 1400px;
@@ -265,7 +265,32 @@ a{
     text-decoration: none;
 }
 
+// }
+
+
+/*SCSS LA PALETTE DU GOÜT */
+
+.menus{
+    background-color: #f6f6f6;
+    background-color: silver;
 }
+
+.menu_food_price{
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.menu_food_descrption_price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_price{
+    font-weight: bold;
+}
+
+
 
 @media screen and (min-width: 750px){
     body{
