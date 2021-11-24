@@ -85,6 +85,12 @@ header{
     font-weight: bold;
 }
 
+.p1_button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: #cfcfcf04 0px 7px 29px 0px;
+}
+
 .step_contain{
     width: 100%;
     display: flex;
@@ -116,6 +122,11 @@ header{
     margin: 15px 20px;
     width: 85%;
     padding: 5px 0px 5px 0px;
+}
+
+.step_123:hover{
+    cursor: pointer;
+    opacity: 0.8em;
 }
 
 .step_number{
@@ -263,6 +274,7 @@ footer{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 // }
@@ -288,8 +300,12 @@ a{
 
 .menus{
     background-color: #f6f6f6;
+    background-color: silver;
     border-radius: 30px 30px 0px 0px;
     width: 100%;
+    margin-top: -104px;
+    position: relative;
+    z-index: 1;
 }
 
 .the_menu_header{
@@ -303,11 +319,15 @@ a{
     font-family: Shrikhand;
     margin-left: 25px;
     font-size: 1.7em;
+    margin-top: 45px;
+    margin-bottom: 0px;
 }
 
 .the_menu_header_heart{
     margin-right: 25px;
     font-size: 1.9em;
+    margin-top: 45px;
+    margin-bottom: 0px;
 }
 
 .menu_list_title{
@@ -317,13 +337,13 @@ a{
 
 .menu_list_title h2{
     border-bottom: 3px solid #99e2d0;
+    width: 60px;
+    margin-top: 60px;
 }
 
 .menu_food{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
     padding-left: 15px;
-    padding-right: 30px;
 }
 
 .menu_food_name h3{
@@ -334,6 +354,9 @@ a{
     background-color: white;
     margin: 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #db5f5f 0px 7px 29px 0px;
 }
 
 .menu_food_descrption_price{
@@ -343,11 +366,15 @@ a{
 
 .menu_price{
     font-weight: bold;
+    margin-left: 400px;
 }
 
 .validation_button{
     background-color: #99e2d0;
     color: white;
+    padding: 30px;
+    border-radius: 0px 15px 15px 0px;
+    display: none;
 }
 
 
@@ -368,6 +395,7 @@ a{
     background: linear-gradient(#ee73da, #ae5fdb);
     color: white;
     font-weight: bold;
+    box-shadow: #db5f5f 0px 7px 29px 0px;
 }
 
 
