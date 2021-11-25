@@ -126,7 +126,8 @@ header{
 
 .step_123:hover{
     cursor: pointer;
-    opacity: 0.8em;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.679) 0px 10px 20px, rgba(0, 0, 0, 0.549) 0px 6px 6px;
 }
 
 .step_number{
@@ -145,6 +146,7 @@ header{
 
 .step_text{
     margin-left: 20px;
+    color: black;
 }
 
 .step_title{
@@ -174,7 +176,12 @@ header{
     position:relative;
     justify-content: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+}
+
+.restaurant_card:hover{
+    cursor: pointer;
+    box-shadow: rgba(35, 35, 37, 0.898) 0px 7px 29px 0px;
+
 }
 
 .restaurant_card_img img{
@@ -235,6 +242,7 @@ header{
     flex-direction: column;
 }
 
+
 .heart_icon{
     margin-right: 20px;
     margin-bottom: 15px;
@@ -268,6 +276,11 @@ footer{
     align-items: center;
     height: 35px;
 }
+
+.footer_section_link:hover{
+    font-size: 1.2em;
+}
+
 .footer_section_link i{
     margin-right: 10px;
 }
@@ -398,12 +411,23 @@ a{
     box-shadow: #db5f5f 0px 7px 29px 0px;
 }
 
+.order_button p{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: #cfcfcf04 0px 7px 29px 0px;
+}
+
+
+
+
+
+
 
 
 
 
 @media screen and (min-width: 750px){
     body{
-        background-color: green;
+        background-color:red;
     }
 }
