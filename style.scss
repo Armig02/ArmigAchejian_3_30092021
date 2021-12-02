@@ -79,7 +79,7 @@ header{
     border: 1px solid transparent;
     border-radius: 150px;
     padding:0px 20px 0px 20px;
-    box-shadow: #cfcfcfbb 0px 7px 29px 0px;
+    box-shadow: #cfcfcf33 0px 7px 29px 0px;
     background: linear-gradient(#ee73da, #ae5fdb);
     color: white;
     font-weight: bold;
@@ -173,15 +173,18 @@ header{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    position:relative;
     justify-content: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(17, 17, 17, 0.638) 0px 7px 29px 0px;
 }
 
 .restaurant_card:hover{
     cursor: pointer;
     box-shadow: rgba(35, 35, 37, 0.898) 0px 7px 29px 0px;
 
+}
+
+.restaurant_card_img{
+    position:relative;
 }
 
 .restaurant_card_img img{
@@ -200,7 +203,7 @@ header{
     position: absolute;
     width: 80px;
     height: 29px;
-    left: 200px;
+    left: 520px;
     padding: 5px 8px 5px 8px;
     border-radius: 3px;
     top: 10px;
@@ -357,6 +360,7 @@ a{
 .menu_food{
     padding-top: 10px;
     padding-left: 15px;
+    width: 100%;
 }
 
 .menu_food_name h3{
@@ -379,7 +383,7 @@ a{
 
 .menu_price{
     font-weight: bold;
-    margin-left: 400px;
+    margin-right: 30px;
 }
 
 .validation_button{
@@ -427,7 +431,41 @@ a{
 
 
 @media screen and (min-width: 750px){
-    body{
-        background-color:red;
+
+
+
+    header{
+        width: 100%;
+        background-color: white;
+    }
+
+    .step_list{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .restaurants{
+        display: flex;
+        flex-direction: row;
+    }
+
+    figure{
+        margin-top: 100px;
+        margin-left: -166px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+    .footer_section_links{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    /*la palette du goût*/
+
+    .menus_list{
+        display: flex;
     }
 }
